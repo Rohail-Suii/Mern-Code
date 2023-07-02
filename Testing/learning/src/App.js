@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Jsxnav from './components/jsxnav';
+import Embeddedjsx from './components/embeddedjsx';
+import Event from './components/event';
+import Events from './components/events';
+import Guess from './components/guess';
+import Guessjsx from './components/guess';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       {/* <Jsxnav first="Home" second="About" third="Contact" fourth="Blog"/>
+      <p>{Embeddedjsx("Rohail","Ahmed")}</p>
+      <Event/>
+      <Events/>  */}
+      <Guessjsx/>
+      {/* <Guess/> */}
+      
+    </>
+    
   );
 }
 
