@@ -6,7 +6,7 @@ import Event from './components/event';
 import Events from './components/events';
 import Guess from './components/guess';
 import Guessjsx from './components/guess';
-
+import Parentdata from './components/parentdata';
 function App() {
   return (
     <>
@@ -14,9 +14,9 @@ function App() {
       <p>{Embeddedjsx("Rohail","Ahmed")}</p>
       <Event/>
       <Events/>  */}
-      <Guessjsx/>
+      {/* <Guessjsx/> */}
       {/* <Guess/> */}
-      
+      <Parentdata/>
     </>
     
   );
