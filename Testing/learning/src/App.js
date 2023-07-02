@@ -7,6 +7,7 @@ import Events from './components/events';
 import Guess from './components/guess';
 import Guessjsx from './components/guess';
 import Parentdata from './components/parentdata';
+import State1 from './components/State1';
 function App() {
   return (
     <>
@@ -16,7 +17,8 @@ function App() {
       <Events/>  */}
       {/* <Guessjsx/> */}
       {/* <Guess/> */}
-      <Parentdata/>
+      {/* <Parentdata/> */}
+      <State1/>
     </>
     
   );
