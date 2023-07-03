@@ -14,6 +14,7 @@ import Homepage from './components/Homepage';
 import About from './components/about';
 import { Routes,Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import Ternaryoperator from './components/ternanryoperator';
 function App() {
   return (
     <>
@@ -27,14 +28,15 @@ function App() {
       {/* <State1/> */}
       {/* <State2/>
       <Parent/> */}
-      <nav>
+      {/* <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/about" element={<About/>}/>
-      </Routes>
+      </Routes> */}
+      <Ternaryoperator/>
     </>
     
   );
