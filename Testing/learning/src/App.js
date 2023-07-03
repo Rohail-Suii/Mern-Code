@@ -10,7 +10,10 @@ import Parentdata from './components/parentdata';
 import State1 from './components/State1';
 import State2 from './components/State2';
 import  Parent  from './components/contextapi';
-
+import Homepage from './components/Homepage';
+import About from './components/about';
+import { Routes,Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function App() {
   return (
     <>
@@ -22,8 +25,16 @@ function App() {
       {/* <Guess/> */}
       {/* <Parentdata/> */}
       {/* <State1/> */}
-      <State2/>
-      <Parent/>
+      {/* <State2/>
+      <Parent/> */}
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
     </>
     
   );
