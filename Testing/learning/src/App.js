@@ -8,6 +8,9 @@ import Guess from './components/guess';
 import Guessjsx from './components/guess';
 import Parentdata from './components/parentdata';
 import State1 from './components/State1';
+import State2 from './components/State2';
+import  Parent  from './components/contextapi';
+
 function App() {
   return (
     <>
@@ -18,7 +21,9 @@ function App() {
       {/* <Guessjsx/> */}
       {/* <Guess/> */}
       {/* <Parentdata/> */}
-      <State1/>
+      {/* <State1/> */}
+      <State2/>
+      <Parent/>
     </>
     
   );
