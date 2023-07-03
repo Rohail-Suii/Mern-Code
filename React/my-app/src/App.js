@@ -1,14 +1,16 @@
-import ExpenseItem from './components/ExpenseItem'; 
 import React from 'react';
-import Header from './components/Header';
+import { Routes, Switch, Route} from 'react-router-dom';
+import User from './user/pages/user';
 function App(){
   return(
-    <div>
-      <Header name="Anna" color = "red"/>
-      {/* <Main />
-      <Sidebar /> */}
-    </div>
-  )
-}
+    
+    <Routes>
+      <Route path="/" exact>
+        <User/>
+      </Route>
+      {/* <Redirect to="/"/> */}
+    </Routes>
+  )   
+};
 
 export default App;

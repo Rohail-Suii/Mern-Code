@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 import Ternaryoperator from './components/ternanryoperator';
 import crow from './components/assests/imgs/crow.jpg';
 import Videoplayer from './components/videopalyer';
-
+import List from './components/list';
 function App() {
   return (
     <>
@@ -42,7 +42,8 @@ function App() {
       {/* <Ternaryoperator/>
       <img src={crow} alt="crow" height={200}/>
       <img src={require('./components/assests/imgs/crow.jpg')} alt="crow" height={200}/> */}
-      <Videoplayer/>
+      {/* <Videoplayer/> */}
+      <List/>
     </>
     
   );
