@@ -15,6 +15,9 @@ import About from './components/about';
 import { Routes,Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Ternaryoperator from './components/ternanryoperator';
+import crow from './components/assests/imgs/crow.jpg';
+import Videoplayer from './components/videopalyer';
+
 function App() {
   return (
     <>
@@ -36,7 +39,10 @@ function App() {
         <Route path="/" element={<Homepage/>}/>
         <Route path="/about" element={<About/>}/>
       </Routes> */}
-      <Ternaryoperator/>
+      {/* <Ternaryoperator/>
+      <img src={crow} alt="crow" height={200}/>
+      <img src={require('./components/assests/imgs/crow.jpg')} alt="crow" height={200}/> */}
+      <Videoplayer/>
     </>
     
   );
