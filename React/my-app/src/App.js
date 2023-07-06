@@ -4,7 +4,6 @@ import {
   BrowserRouter ,
   Routes,
   Switch,
-  Redirect,
   Route
 } from "react-router-dom";
 import User from './user/pages/user';
@@ -16,10 +15,6 @@ function App(){
     <Routes>
       <Route path="/" element={<User />} />
     </Routes>
-    <Routes>
-      <Route path="/" element={<User />} />
-    </Routes>
-    <Redirect to="/" />
     </switch>
   </BrowserRouter>
   )   
