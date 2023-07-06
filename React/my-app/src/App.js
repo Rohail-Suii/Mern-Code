@@ -26,7 +26,6 @@ const App = () => {
             
     
         </Routes>
-        <Navigate to="/" />
       </main>
     </Router>
   );
