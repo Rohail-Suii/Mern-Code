@@ -1,21 +1,35 @@
-import React from "react";
-import { render } from "react-dom";
-import { BrowserRouter, Routes, Switch, Route } from "react-router-dom";
+import React, { Fragment } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Navigate,
+  Routes,
+} from "react-router-dom";
+
 import User from "./user/pages/user";
+import NewPlace from "./places/pages/NewPlace";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
-function App() {
+
+const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <MainNavigation />
       <main>
-        <switch>
-          <Routes>
-            <Route path="/" element={<User />} />
-          </Routes>
-        </switch>
+        <Routes>
+         
+            <Route path="/" element={<User />} exact>
+              
+            </Route>
+            <Route path="/places/new"  element={<NewPlace />} exact>
+              
+            </Route>
+            
+    
+        </Routes>
+        <Navigate to="/" />
       </main>
-    </BrowserRouter>
+    </Router>
   );
-}
+};
 
 export default App;
