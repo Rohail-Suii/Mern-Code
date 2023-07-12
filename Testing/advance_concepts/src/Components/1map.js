@@ -19,7 +19,7 @@ export default function Map() {
       const people = data.map((person) => {
         const name1=`${person.name} - ${person.age}`
         
-        return <li>{name1}</li>
+        return <li key={person.id}>{name1}</li>
         
       });
       
