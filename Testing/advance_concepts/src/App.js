@@ -6,6 +6,7 @@ import ControlledFrom from "./Components/4ControlledFrom";
 import RatingForm from "./Components/5ratingFrom";
 import FeedbackForm from "./Components/6gptfrom";
 import SignUp from "./Components/7SignUp";
+import UseEffect1 from "./Components/10useEffect";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       {/* <ControlledFrom /> */}
       {/* <RatingForm /> */}
       {/* <FeedbackForm /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <UseEffect1 />
     </div>
   );
 }
