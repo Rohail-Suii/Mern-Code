@@ -7,6 +7,7 @@ import RatingForm from "./Components/5ratingFrom";
 import FeedbackForm from "./Components/6gptfrom";
 import SignUp from "./Components/7SignUp";
 import UseEffect1 from "./Components/10useEffect";
+import FirstFetch from "./Components/11fetch";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
       {/* <RatingForm /> */}
       {/* <FeedbackForm /> */}
       {/* <SignUp /> */}
-      <UseEffect1 />
+      {/* <UseEffect1 /> */}
+      <FirstFetch />
     </div>
   );
 }
