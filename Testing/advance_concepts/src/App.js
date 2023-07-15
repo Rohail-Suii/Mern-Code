@@ -11,6 +11,9 @@ import FirstFetch from "./Components/11fetch";
 import UseReducer1 from "./Components/12useReduser";
 import UseRef1 from "./Components/13useRef";
 import Composition1 from "./Components/14composition";
+import WithLoader from "./Components/15HOC";
+import FirstHoc from "./Components/16HocChild";
+const FirstHocWithLoader = WithLoader(FirstHoc);
 function App() {
   return (
     <div className="App">
@@ -24,7 +27,8 @@ function App() {
       {/* <FirstFetch /> */}
       {/* <UseReducer1 /> */}
       {/* <UseRef1 /> */}
-      <Composition1 />
+      {/* <Composition1 /> */}
+      <FirstHocWithLoader />
     </div>
   );
 }
