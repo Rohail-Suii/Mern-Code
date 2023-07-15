@@ -8,6 +8,7 @@ import FeedbackForm from "./Components/6gptfrom";
 import SignUp from "./Components/7SignUp";
 import UseEffect1 from "./Components/10useEffect";
 import FirstFetch from "./Components/11fetch";
+import UseReducer1 from "./Components/12useReduser";
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
       {/* <FeedbackForm /> */}
       {/* <SignUp /> */}
       {/* <UseEffect1 /> */}
-      <FirstFetch />
+      {/* <FirstFetch /> */}
+      <UseReducer1 />
     </div>
   );
 }
