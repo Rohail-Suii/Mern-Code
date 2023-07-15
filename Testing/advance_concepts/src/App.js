@@ -9,6 +9,7 @@ import SignUp from "./Components/7SignUp";
 import UseEffect1 from "./Components/10useEffect";
 import FirstFetch from "./Components/11fetch";
 import UseReducer1 from "./Components/12useReduser";
+import UseRef1 from "./Components/13useRef";
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
       {/* <SignUp /> */}
       {/* <UseEffect1 /> */}
       {/* <FirstFetch /> */}
-      <UseReducer1 />
+      {/* <UseReducer1 /> */}
+      <UseRef1 />
     </div>
   );
 }
